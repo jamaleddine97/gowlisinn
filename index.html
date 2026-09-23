@@ -35,7 +35,23 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <!-- LetsNotify SDK -->
+
+<script type="text/javascript" src="https://cdn.letsnotify.in//index.js"></script>
+<script>
+  const sdk = new LetsNotifySDK();
+  const pushSDK = sdk.pushSdk();
+  pushSDK.init({
+    connectionId: "3d64d505-c1b5-4e6f-bc13-b31017b28995",
+    serviceWorkerPath: "LetsNotifySW.js",
+    apiKey: "3e58a0e88e2f9bfd50f90388d09654df",
+    secretKey: "174d25e8b7c11bb90f21385cea971d16ebda17cdfb1a9244befc8c74e71f85e6"
+  });
+</script>
+
 </head>
+
 
 <body class="index-page">
 
